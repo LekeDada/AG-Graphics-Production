@@ -1,4 +1,4 @@
-DG Graphics Production — Brand Guidelines (Summary)
+AG Graphics Production — Brand Guidelines (Summary)
 
 Primary colors:
 - Dark Green: #0b4d1a
@@ -11,7 +11,7 @@ Typography:
 - Body: Inter / system sans-serif
 
 Contact:
-Email: Dgraphicsproduction@gmail.com
+Email: AGgraphicsproduction@gmail.com
 Phone: 832-289-5771
 Address: 6230 Wilcrest Dr, Houston, TX 77072
 Owner: Leke Dada
