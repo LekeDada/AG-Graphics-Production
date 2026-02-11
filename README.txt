@@ -17,6 +17,6 @@ How to use:
 4. To generate print-ready PDFs for business cards: open the HTML files in the print/ folder and use browser Print -> Save as PDF, paper size 3.5in x 2in at 300 DPI.
 
 Replace logo:
-- Swap assets/DGlogo.jpg with a new logo of the same filename, or edit HTML to point to a new file.
+- Swap assets/AGlogo.jpg with a new logo of the same filename, or edit HTML to point to a new file.
 
 Need help deploying? Reply and I will deploy it for you.
