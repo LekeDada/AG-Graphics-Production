@@ -24,20 +24,27 @@ function loadTheme() {
   }
 }
 
-// Initialize theme on page load
+// Initialize on page load
 document.addEventListener('DOMContentLoaded', () => {
+  // Load saved theme
   loadTheme();
-});
-
-// Smooth scroll for anchor links
-document.addEventListener('DOMContentLoaded', () => {
+  
+  // Smooth scroll for anchor links
   const links = document.querySelectorAll('a[href^="#"]');
   links.forEach(link => {
     link.addEventListener('click', (e) => {
-      const target = document.querySelector(link.getAttribute('href'));
-      if (target) {
-        e.preventDefault();
-        target.scrollIntoView({ behavior: 'smooth' });
+      const href = link.getAttribute('href');
+      if (href && href.length > 1) {
+        try {
+          const target = document.querySelector(href);
+          if (target) {
+            e.preventDefault();
+            target.scrollIntoView({ behavior: 'smooth' });
+          }
+        } catch (error) {
+          // Invalid selector, ignore
+          console.warn('Invalid anchor selector:', href);
+        }
       }
     });
   });
