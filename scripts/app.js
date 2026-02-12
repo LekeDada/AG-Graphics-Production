@@ -10,7 +10,7 @@ function toggleTheme() {
   localStorage.setItem('theme', newTheme);
 }
 
-// Load saved theme preference
+// Load saved theme preference immediately to prevent FOUC
 function loadTheme() {
   const savedTheme = localStorage.getItem('theme');
   if (savedTheme) {
@@ -24,11 +24,11 @@ function loadTheme() {
   }
 }
 
-// Initialize on page load
+// Load theme immediately
+loadTheme();
+
+// Initialize interactive features on page load
 document.addEventListener('DOMContentLoaded', () => {
-  // Load saved theme
-  loadTheme();
-  
   // Smooth scroll for anchor links
   const links = document.querySelectorAll('a[href^="#"]');
   links.forEach(link => {
