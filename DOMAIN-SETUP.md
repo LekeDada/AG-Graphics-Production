@@ -22,9 +22,9 @@ The CNAME file currently contains: `www.aggraphics.com`
   
 ### Option B: Paid Domain Registrars (Recommended)
 - **Namecheap** (https://www.namecheap.com) - $8-15/year
-- **Google Domains** (https://domains.google) - $12-20/year  
-- **GoDaddy** (https://www.godaddy.com) - $10-20/year
 - **Porkbun** (https://porkbun.com) - $8-12/year
+- **Squarespace Domains** (https://domains.squarespace.com) - $12-20/year
+- **GoDaddy** (https://www.godaddy.com) - $10-20/year
 
 **Recommended domains for AG Graphics Production:**
 - aggraphics.com

@@ -43,7 +43,7 @@ document.addEventListener('DOMContentLoaded', () => {
           }
         } catch (error) {
           // Invalid selector, ignore
-          console.warn('Invalid anchor selector:', href);
+          console.warn(`Invalid anchor selector: ${href} - ${error.message}`);
         }
       }
     });

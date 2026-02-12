@@ -116,7 +116,8 @@ When you're ready to invest in a custom domain (like `www.aggraphics.com`):
 
 1. **Purchase a domain** from:
    - Namecheap (~$10/year) - Recommended
-   - Google Domains (~$12/year)
+   - Porkbun (~$9/year)
+   - Squarespace Domains (~$12/year)
    - GoDaddy (~$12/year)
 
 2. **Follow the setup guide** in `DOMAIN-SETUP.md`
